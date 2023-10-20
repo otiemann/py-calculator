@@ -14,13 +14,13 @@ class App:
 
     def create_widgets(self):
         self.lZahl1 = ttk.Label(self.root, text='Zahl 1:')
-        self.lZahl1.place(x=8, y=8)
+        self.lZahl1.place(x=8, y=13)
         
         self.entry1 = ttk.Entry(self.root)
         self.entry1.place(x=96, y=8)
         
         self.lZahl2 = ttk.Label(self.root, text='Zahl 2:')
-        self.lZahl2.place(x=8, y=40)
+        self.lZahl2.place(x=8, y=45)
         
         self.entry2 = ttk.Entry(self.root)
         self.entry2.place(x=96, y=40)
@@ -43,7 +43,7 @@ class App:
         self.bBerechnen['command'] = self.bBerechnen_Command
         
         self.lErgebnis = ttk.Label(self.root, text='Ergebnis:')
-        self.lErgebnis.place(x=8, y=240)
+        self.lErgebnis.place(x=8, y=245)
         
         self.entry3 = ttk.Entry(self.root)
         self.entry3.place(x=96, y=240)
